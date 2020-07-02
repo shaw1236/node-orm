@@ -1,0 +1,9 @@
+node_modules/
+node-fetch/node_modules
+promise/node_modules
+sequelize/node-modeuls
+sequelize/dist
+typeorm/project2/node_modules
+typeorm/project2/dist
+typeorm/project1/node_modules
+

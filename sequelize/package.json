@@ -1,0 +1,27 @@
+{
+  "name": "sequelize-test",
+  "version": "1.0.0",
+  "description": "sequelize orm mysql",
+  "main": "app.js",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "babel src -d dist && node dist/app.js"
+  },
+  "keywords": [
+    "sequelize",
+    "mysql",
+    "orm"
+  ],
+  "author": "Simon Li",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.2.4"
+  }
+}
